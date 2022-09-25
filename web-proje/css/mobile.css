@@ -1,0 +1,121 @@
+@media (max-width: 991px) {
+  section {
+    margin: 0.5rem 0 1rem 0.5rem;
+  }
+  /* Header Start */
+  header {
+    height: 10vh;
+    justify-content: space-around;
+    margin: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1e2227;
+  }
+  header .search input {
+    width: 50%;
+  }
+  .open-folder {
+    width: 50%;
+    background-color: #1e2227;
+    text-align: center;
+  }
+
+  .open-folder ul a:hover {
+    text-decoration: none;
+  }
+
+  .open-folder ul li {
+    list-style: none;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    text-align: start;
+  }
+  .open-folder ul li i {
+    margin-left: 1.5rem;
+  }
+
+  /* Header End */
+  /* Section Home Start */
+  .home {
+    justify-content: space-around;
+    position: relative;
+    top: 0px;
+    height: 60vh;
+  }
+
+  .home .row-1 {
+    width: 50%;
+  }
+
+  .home .row-1 .infermation h1 {
+    font-size: 3rem;
+  }
+  .home .row-1 .infermation p {
+    font-size: 1rem;
+  }
+  .home .row-1 .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .home .row-1 .buttons button {
+    font-size: 1rem;
+    padding: 1.5rem;
+    border-radius: 1.3rem;
+  }
+
+  .home .row-2 {
+    margin-top: 0rem;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    height: 100%;
+    display: flex;
+  }
+
+  .home .row-2 .container {
+    height: auto;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    justify-content: center;
+    background: red;
+  }
+  .home .row-2 .main-foto {
+    text-align: center;
+  }
+  .home .row-2 .main-foto img {
+    width: 100%;
+  }
+
+  .home .row-2 .helper-foto .item {
+    margin-bottom: 2rem;
+  }
+  .home .row-2 .helper-foto .item img {
+    width: 100%;
+  }
+
+  .home .row-2 .helper-foto {
+    margin: 3rem 0 0 0;
+  }
+
+  .home .row-2 .title {
+    font-size: 5rem;
+  }
+
+  .open-folder {
+    width: 55%;
+    background-color: #1e2227;
+    text-align: start;
+  }
+
+  .open-folder ul li i {
+    margin-right: 0.5rem;
+  }
+  .open-folder ul li {
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* Section Home End */
+}

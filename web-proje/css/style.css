@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.none {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e2227;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+section {
+  margin: 0.5rem 0 1rem 8%;
+}
+
+/* Header Start */
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 8%;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  background-color: #1e22276c;
+}
+
+header .logo {
+  height: 100%;
+  align-items: center;
+}
+
+header .logo img {
+  height: 100%;
+}
+
+header .input-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+header .search {
+  width: 100%;
+}
+
+header .search i {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+  color: black;
+}
+
+header .search input {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  width: 80%;
+  outline: none;
+}
+
+header .shortcut {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+header .shortcut i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.open-folder {
+  position: absolute;
+  height: auto;
+  top: 10vh;
+  width: 15%;
+  background-color: #1e22276c;
+  text-align: center;
+}
+.open-folder ul a {
+  color: #fff;
+}
+.open-folder ul a:hover {
+  text-decoration: underline;
+}
+
+.open-folder ul li i {
+  margin-right: 1.5rem;
+}
+.open-folder ul li {
+  list-style: none;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.rotateopen {
+  transform: rotate(90deg);
+  transition: transform 0.8s;
+}
+
+/* Header End */
+/* Section Home Start */
+
+.home {
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.home .row-1 {
+  width: 50%;
+}
+
+.home .row-1 .infermation h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+.home .row-1 .infermation p {
+  font-size: 2rem;
+}
+
+.home .row-1 .price {
+  margin: 1rem 0;
+}
+
+.home .row-1 .price h1 {
+  font-size: 3rem;
+}
+.home .row-1 .price span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+}
+
+.home .row-1 .buttons {
+  margin-top: 1rem;
+}
+
+.home .row-1 .buttons button {
+  font-size: 2rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  background: red;
+  text-transform: uppercase;
+}
+
+.home .row-1 .buttons button a {
+  color: #fff;
+}
+
+.home .row-1 .buttons button:hover {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.home .row-2 {
+  width: 50%;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.home .row-2 .container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: red;
+}
+
+.home .row-2 .main-foto img {
+  width: 100%;
+  transform: rotate(-20deg);
+  transition: transform 0.5s;
+}
+.home .row-2 .main-foto img:hover {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+.home .row-2 .helper-foto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.home .row-2 .helper-foto .item {
+  text-align: center;
+  width: 20%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3rem;
+}
+.home .row-2 .helper-foto .item img {
+  width: 80%;
+  transform: rotate(-20deg);
+  transition: transform 0.5s;
+}
+
+.home .row-2 .helper-foto .item img:hover {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+
+.home .row-2 .title {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  font-size: 10rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+/* Section Home End */
+/* Seciton Run Start */
+.run {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.run .run-logo {
+  width: 50%;
+}
+.run .run-logo img {
+  width: 80%;
+}
+
+.run .run-infermation {
+  width: 30%;
+}
+.run .run-infermation h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.run .run-infermation h1 span {
+  color: red;
+}
+.run .run-infermation p {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+/* Seciton Run End */ ;
